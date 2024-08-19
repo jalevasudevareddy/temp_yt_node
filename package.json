@@ -4,6 +4,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
+    "dev":"nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,5 +13,8 @@
   "description": "",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": { 
+    "nodemon": "^3.1.4"
   }
 }
